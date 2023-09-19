@@ -1,4 +1,5 @@
 let review_stars = document.querySelector(".review_stars");
+let review_card = document.querySelector(".review_card");
 
 let fullStarComponent = `<i class="fa-solid fa-star"></i>`;
 let emptyStarComponent = `<i class="fa-regular fa-star"></i>`;
@@ -25,3 +26,4 @@ star_icons.forEach((star, index) => {
         
     })
 })
+
